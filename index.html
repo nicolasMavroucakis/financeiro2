@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200&family=Roboto:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="every_thing">
+        <header>
+            <div class="logo">
+                <div>
+                    <img src="money.png" alt="" class="foto_logo">
+                </div>
+                <div class="titulo">
+                    <h1>MAVROMONEY</h1>
+                </div>
+            </div>
+            <nav class="nav">
+                <button class="hamburger"></button>
+                <ul class="nav-list">
+                  <li><a href="#principal" id="principal">Principal</a></li>
+                  <li><a href="#mercado" id="mercado">Mercado</a></li>
+                  <li><a href="#trasferencia" id="calculadora">Calculadora</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="principal" id="principal">
+                <div class="div_imagem_principal">
+                    <img src="money5.png" class="img_principal">
+                </div>
+                <div class="principal_text">
+                    <h1 class="principal_text_1">Fazendo dinheiro facil</h1>
+                    <h1 class="principal_text_2">para voce</h1>
+                </div>
+            </div>
+            <div class="moedas" >
+                <div class="moeda">
+                    <div>
+                        <img src="dollar (2).png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Dolar</p>
+                        </div>
+                        <div>
+                            <p class="pctChange">2.5%</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="dolar_valor_display">R$ 4.85</p>
+                    </div>
+                </div>
+                <div class="moeda">
+                    <div>
+                        <img src="euro.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Euro</p>
+                        </div>
+                        <div>
+                            <p class="pctChangeEuro">-2.5%</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="euro_valor_display">R$ 5.25</p>
+                    </div>
+                </div>
+                <div class="moeda">
+                    <div>
+                        <img src="pound-sterling.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Libra</p>
+                        </div>
+                        <div>
+                            <p class="pctChangeLibra">-2.5%</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="libra_valor_display">R$ 6.45</p>
+                    </div>
+                </div>
+                <div class="moeda">
+                    <div>
+                        <img src="bitcoin (1).png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Bitcoin</p>
+                        </div>
+                        <div>
+                            <p class="pctChangeBitcoin">2.5%</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="bitcoin_valor_display">R$ 230,000.85</p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="mercado" >
+            <div class="mercado_titulo">
+                <h1>Mercado agora</h1>
+            </div>
+            <div class="mercado_principal">
+                <div class="tabelas">Moeda</div>
+                <div class="tabelas">Preço</div>
+                <div class="tabelas">24h Change</div>
+                <div class="tabelas">Var. Diaria</div>
+            </div>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="dollar (2).png"><p>Dolar</p></div>
+                <div class="tabelas" id="dolarMercadoVal">R$ 4.85</div>
+                <div class="tabelas" id="dolarMercadoPor">-2.5%</div>
+                <div class="tabelas" id="dolarMercadoVar"><p id="dolarMercadoVarMax">4.87</p>-<p id="dolarMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="dollar (2).png"><p>Dolar Canad</p></div>
+                <div class="tabelas" id="dolarCadMercadoVal">R$ 4.85</div>
+                <div class="tabelas" id="dolarCadMercadoPor">-2.5%</div>
+                <div class="tabelas" id="dolarCadMercadoVar"><p id="dolarCadMercadoVarMax">4.87</p>-<p id="dolarCadMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="euro.png"><p>Euro</p></div>
+                <div class="tabelas" id="euroMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="euroMercadoPor">-2.5%</div>
+                <div class="tabelas" id="euroMercadoVar"><p id="euroMercadoVarMax">4.87</p>-<p id="euroMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="pound-sterling.png"><p>Libra</p></div>
+                <div class="tabelas" id="libraMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="libraMercadoPor">-2.5%</div>
+                <div class="tabelas" id="libraMercadoVar"><p id="libraMercadoVarMax">4.87</p>-<p id="libraMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="bitcoin (1).png"><p>Bitcoin</p></div>
+                <div class="tabelas" id="bitcoinMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="bitcoinMercadoPor">-2.5%</div>
+                <div class="tabelas" id="bitcoinMercadoVar"><p id="bitcoinMercadoVarMax">4.87</p>-<p id="bitcoinMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="crypto.png"><p>Etherium</p></div>
+                <div class="tabelas" id="ethMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="ethMercadoPor">-2.5%</div>
+                <div class="tabelas" id="ethMercadoVar"><p id="ethMercadoVarMax">4.87</p>-<p id="ethMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="xrp.png"><p>XRP</p></div>
+                <div class="tabelas" id="xrpMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="xrpMercadoPor">-2.5%</div>
+                <div class="tabelas" id="xrpMercadoVar"><p id="xrpMercadoVarMax">4.87</p>-<p id="xrpMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda">
+                <div class="tabelas1"><img src="yen.png"><p>Yen Japonês</p></div>
+                <div class="tabelas" id="jpMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="jpMercadoPor">-2.5%</div>
+                <div class="tabelas" id="jpMercadoVar"><p id="jpMercadoVarMax">4.87</p>-<p id="jpMercadoVarMin">4.84</p></div>
+            </div>
+            <hr>
+            <div class="mercado_moeda" id="mercado">
+                <div class="tabelas1"><img src="yuan.png"><p>Yuan Chinês</p></div>
+                <div class="tabelas" id="chinaMercadoVal">R$ 5.45</div>
+                <div class="tabelas" id="chinaMercadoPor">-2.5%</div>
+                <div class="tabelas" id="chinaMercadoVar"><p id="chinaMercadoVarMax">4.87</p>-<p id="chinaMercadoVarMin">4.84</p></div>
+            </div>
+        </div>
+        <div class="trasferencia" id="trasferencia">
+            <div class="trasf_telas">
+                <h1>Coverter Moedas</h1>
+                <div class="escolha_opcoes">
+                    <p>De</p>
+                    <div class="linha">
+                        <select name="" id="select_2">
+                            <option value="Dolar">Dolar</option>
+                            <option value="Dolar Canadense">Dolar Canadense</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Libra">Libra</option>
+                            <option value="Bitcoin">Bitcoin</option>
+                            <option value="Etherium">Etherium</option>
+                            <option value="XRP">XRP</option>
+                            <option value="Yen Japonês">Yen Japonês</option>
+                            <option value="Yuan Chinês">Yuan Chinês</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="escolha_opcoes">
+                    <p>Para</p>
+                    <div class="linha">
+                        <input type="text" id="input_1"  placeholder="Quantidade Ex:2">
+                        <div class="div_real_trasf">
+                            <p id="trasf_real">Real</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trasf_button">
+                    <button id="button_converter">Converter</button>
+                </div>
+                <div class="transf_resultado">
+                    <p>Resultado</p>
+                    <div class="transf_resultado_display">
+                        <p id="resultado_transferencia"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script src="scriptMercdo.js"></script>
+    <script src="scriptConvertor.js"></script>
+</body>
+</html>
